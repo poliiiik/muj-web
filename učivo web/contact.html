@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kontakt</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: Arial;
+        margin: 0;
+      }
+      nav {
+        background-color: red;
+        padding: 15px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 20px;
+      }
+      nav a:hover {
+        color: black;
+      }
+      h1 {
+        color: red;
+        font-size: 50px;
+      }
+      input, textarea {
+        padding: 10px;
+        margin: 10px;
+        width: 300px;
+        border-radius: 10px;
+        border: none;
+        font-size: 16px;
+      }
+      button {
+        background-color: red;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Domů</a>
+      <a href="about.html">O mně</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
+    <h1>Kontakt</h1>
+    <p>Napiš mi!</p>
+    <input type="text" placeholder="Tvoje jméno"><br>
+    <input type="email" placeholder="Tvůj email"><br>
+    <textarea placeholder="Tvoje zpráva" rows="5"></textarea><br>
+    <button onclick="alert('Zpráva odeslána!')">Odeslat</button>
+  </body>
+</html>

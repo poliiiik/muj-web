@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Můj první web</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-family: Arial;
+        margin: 0;
+      }
+      nav {
+        background-color: red;
+        padding: 15px;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 20px;
+      }
+      nav a:hover {
+        color: black;
+      }
+      h1 {
+        color: red;
+        font-size: 50px;
+      }
+      img {
+        border-radius: 20px;
+      }
+      button {
+        background-color: red;
+        color: white;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Domů</a>
+      <a href="about.html">O mně</a>
+      <a href="#">Kontakt</a>
+    </nav>
+    <h1>Yall can suck my fat one</h1>
+    <p>Bacha na mě vy kundihvízdi</p>
+    <img src="https://picsum.photos/400/300" alt="náhodný obrázek">
+    <br><br>
+    <button onclick="document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16)">Klikni na mě!</button>
+  </body>
+</html>
